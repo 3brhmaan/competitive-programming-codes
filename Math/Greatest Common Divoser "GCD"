@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+#define endl "\n"
+#define loop(n) for(int i=0;i<n;i++)
+#define ll long long
+#define ull unsigned long long
+#define ld long double
+#define pb(l) push_back(l)
+#define pf(l) push_front(
+#define pob() pop_back()l)
+#define pof() pop_front()
+#define all(x) x.begin(),x.end()
+#define fast cin.tie(0),cin.sync_with_stdio(0)
+#define mod 1000000007
+
+
+using namespace std;
+
+
+// complexity -> O( log( max (a,b) ) )
+ll gcd (ll a,ll b)
+{
+    if(b == 0)return a;
+    return gcd(b,a%b);
+}
+
+
+
+int main()
+{
+}
+
+
+
+
+
+
